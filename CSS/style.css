@@ -1,0 +1,13 @@
+.BMI{
+    display: grid;
+    width: 80%;
+}
+
+div{
+    box-sizing: border-box;
+    background-color: rgb(94, 209, 98);
+    border: 3px solid black;
+    border-radius: 1rem;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+}
