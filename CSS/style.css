@@ -11,3 +11,18 @@ div{
     justify-content: center;
     font-family: 'Times New Roman', Times, serif;
 }
+button{
+    margin: 1rem;
+}
+#weight{
+    padding: .5rem;
+    margin: 1rem;
+}
+#height{
+    padding: .5rem;
+    margin: 1rem;
+}
+label{
+    padding: .5rem;
+    margin: .5rem;
+}
