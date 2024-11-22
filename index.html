@@ -7,18 +7,20 @@
     <title>BMI</title>
 </head>
 <body>
-    <h2>BMI calculator</h2>
-    <form>
-<div class="BMI">
-    <label for="weight">Weight(kg): </label><input type="number" id="weight">
-    <label for="height">Height(m): </label><input type="number" id="height">
-    <button type="button" onclick="calculateBMI()">Calculate your BMI</button>
+    <h1>BMI Calculator</h1>
+    <p class="keira">made by Keira Kistensamy</p>
+    <form class="d-flex">
 
-    <p id="bmi"></p>
-	<p id="category"></p>
+        <div class="BMI">
+            <label for="weight">Weight(kg): </label><input type="number" id="weight" required>
+            <label for="height">Height(m): </label><input type="number" id="height" required>
+            <button type="button" onclick="calculateBMI()">Calculate your BMI</button>
 
-</div>
-</form>   
+            <p id="bmi"></p>
+            <p id="category"></p>
+
+        </div>
+    </form>   
 </body>
 <script src="script/code.js"></script>
 </html>
